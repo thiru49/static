@@ -1,8 +1,8 @@
 import React from 'react'
 import { content } from '../constants'
-import Button from '../ui/Button'
+import Button from '../common/Button'
 import { leftArow, rectangle10, rectangle8, rectangle9 } from '../assets'
-import Heading from '../ui/Heading'
+import Heading from '../common/Heading'
 
 function About() {
     console.log(content)
@@ -26,7 +26,7 @@ function About() {
                 <Heading>About</Heading>
             <p>{content.para1}</p></section>                
             <section>
-                <Button name="READ MORE" img={leftArow}/></section>               
+                <Button name="READ MORE" img='leftArow'/></section>               
         </div>
     </section>
   )

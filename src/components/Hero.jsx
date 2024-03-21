@@ -1,9 +1,9 @@
 import React from 'react'
 import { leftArow, rectangle, rightArow, slideNumber } from '../assets'
-import Button from '../ui/Button'
-import Heading from '../ui/Heading'
+import Button from '../common/Button'
+import Heading from '../common/Heading'
 
-const Main = () => {
+const Hero = () => {
   return (
     <main className='flex justify-between '>
         <section className='flex flex-col justify-center items-center basis-1/3 gap-8'>
@@ -12,8 +12,8 @@ const Main = () => {
                 <h1 className='text-gray-800 text-6xl '>Lorum</h1>
             </div>
             <div className='flex justify-between gap-5 m-5'>
-                <Button img={leftArow}/>
-                <Button img={rightArow}/>
+                <Button img='rightArow'/>
+                <Button img='leftArow'/>
                  
             </div>
             <div>
@@ -25,8 +25,8 @@ const Main = () => {
             <img src={rectangle} alt="" className='object-cover'/>
             </div>
             
-            <div className='absolute bottom-0 left-2'> 
-            <Button name="VIEW PROJECT" img={leftArow}/>
+            <div className='absolute bottom-0 -left-2'> 
+            <Button name="VIEW PROJECT" img='leftArow'/>
             </div>
             
         </section>
@@ -34,4 +34,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Hero
