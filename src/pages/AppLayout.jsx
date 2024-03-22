@@ -7,7 +7,7 @@ function AppLayout() {
   return (
     <div>
         <NavBar/>
-        <main>
+        <main className='max-w-[1170px] xl:mx-auto md:mx-20 mx-8'>
             <Outlet/>
         </main>
         <Footer/>

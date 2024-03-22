@@ -5,7 +5,7 @@ import Heading from '../common/Heading'
 
 const Hero = () => {
   return (
-    <main className='flex justify-between '>
+    <main className='flex flex-col justify-between gap-5 md:flex-row'>
         <section className='flex flex-col justify-center items-center basis-1/3 gap-8'>
             <div>
                 <Heading className='text-gray-300 text-6xl font-[300]'>PROJECT</Heading>

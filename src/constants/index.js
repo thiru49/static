@@ -1,26 +1,26 @@
-import { group1, group2, image30, image32, image33, rectangle22, rectangle23, rectangle24, rectangle25, rectangle26, rectangle27, rectangle28, rectangle29, rectangle30, rectangle31, vector, vector1 } from "../assets";
+import { facebook, group1, group2, image30, image32, image33, linkedin, pininterest, rectangle22, rectangle23, rectangle24, rectangle25, rectangle26, rectangle27, rectangle28, rectangle29, rectangle30, rectangle31, twitter, vector, vector1 } from "../assets";
 
 
 export const navLinks = [
     {
       id: "/",
-      title: "main",
+      title: "Main",
     },
     {
       id: "/gallery",
-      title: "gallery",
+      title: "Gallery",
     },
     {
       id: "/projects",
-      title: "projects",
+      title: "Projects",
     },
     {
       id: "/certifications",
-      title: "certifications",
+      title: "Certifications",
     },
     {
       id: "/contact",
-      title: "contact",
+      title: "Contact",
     },
   ];
 
@@ -57,3 +57,5 @@ export const projects = [{
   des: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   image:image33
 },];
+
+export const socialMedia = [facebook,pininterest,linkedin,twitter]

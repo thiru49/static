@@ -9,7 +9,7 @@ const Focus = () => {
         <Heading>
         Main Focus/Mission Statement
         </Heading>
-        <div className='flex gap-20'>
+        <div className='flex flex-col sm:flex-row gap-20'>
           
             <Section number={1} para={content.para2}/>
             <Section number={2} para={content.para3}/>
